@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Btn_carro_sedan"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#504E4E"
+        android:text="SEDAN"
+        android:textColor="#FFFFFF"
+        app:iconTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn_carro_hatch"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="184dp"
+        android:backgroundTint="#504E4E"
+        android:text="HATCH"
+        android:textColor="#FAFAFA"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#A23838" />
+
+    <TextView
+        android:id="@+id/txtMensagem"
+        android:layout_width="321dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="53dp"
+        android:text="Olá pessoal! Esse é o nosso App de Carros"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btn_carro_suv"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="400dp"
+        android:backgroundTint="#525050"
+        android:text="SUV"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Btn_carro_importados"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="400dp"
+        android:backgroundTint="#4E4C4C"
+        android:text="IMPORTADOS"
+        android:textColor="#FAF6F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="367dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/suv" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="364dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/car" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
